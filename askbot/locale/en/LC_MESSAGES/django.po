@@ -286,6 +286,7 @@ msgstr ""
 msgid ""
 "Subject line is expected in the format: [tag1, tag2, tag3,...] question title"
 msgstr ""
+"Subject line is expected in the format: [tag1, tag2, tag3,...] idea title"
 
 #: forms.py:987
 msgid "ask anonymously"
@@ -395,12 +396,12 @@ msgstr ""
 #: urls.py:46
 msgctxt "urls"
 msgid "questions"
-msgstr ""
+msgstr "ideas"
 
 #: urls.py:51
 msgctxt "urls"
 msgid "question"
-msgstr ""
+msgstr "idea"
 
 #: urls.py:78 urls.py:360 urls.py:366 urls.py:375 urls.py:384
 msgctxt "urls"
@@ -624,27 +625,27 @@ msgstr ""
 
 #: conf/badges.py:77
 msgid "Nice Question: minimum upvotes for the question"
-msgstr ""
+msgstr "Nice Idea: minimum upvotes for the idea"
 
 #: conf/badges.py:86
 msgid "Good Question: minimum upvotes for the question"
-msgstr ""
+msgstr "Good Idea: minimum upvotes for the idea"
 
 #: conf/badges.py:95
 msgid "Great Question: minimum upvotes for the question"
-msgstr ""
+msgstr "Great Idea: minimum upvotes for the idea"
 
 #: conf/badges.py:104
 msgid "Popular Question: minimum views"
-msgstr ""
+msgstr "Popular Idea: minimum views"
 
 #: conf/badges.py:113
 msgid "Notable Question: minimum views"
-msgstr ""
+msgstr "Notable Idea: minimum views"
 
 #: conf/badges.py:122
 msgid "Famous Question: minimum views"
-msgstr ""
+msgstr "Famous Idea: minimum views"
 
 #: conf/badges.py:131
 msgid "Self-Learner: minimum answer upvotes"
@@ -676,11 +677,11 @@ msgstr ""
 
 #: conf/badges.py:194
 msgid "Favorite Question: minimum stars"
-msgstr ""
+msgstr "Favorite Idea: minimum stars"
 
 #: conf/badges.py:203
 msgid "Stellar Question: minimum stars"
-msgstr ""
+msgstr "Stellar Idea: minimum stars"
 
 #: conf/badges.py:212
 msgid "Commentator: minimum comments"
@@ -730,43 +731,51 @@ msgstr ""
 
 #: conf/email.py:82
 msgid "Default notification frequency all questions"
-msgstr ""
+msgstr "Default notification frequency all ideas"
 
 #: conf/email.py:84
 msgid "Option to define frequency of emailed updates for: all questions."
-msgstr ""
+msgstr "Option to define frequency of emailed updates for: all ideas."
 
 #: conf/email.py:96
 msgid "Default notification frequency questions asked by the user"
-msgstr ""
+msgstr "Default notification frequency ideas shared by the user"
 
 #: conf/email.py:98
 msgid ""
 "Option to define frequency of emailed updates for: Question asked by the "
 "user."
 msgstr ""
+"Option to define frequency of emailed updates for: Ideas shared by the "
+"user."
 
 #: conf/email.py:110
 msgid "Default notification frequency questions answered by the user"
-msgstr ""
+msgstr "Default notification frequency ideas commented by the user"
 
 #: conf/email.py:112
 msgid ""
 "Option to define frequency of emailed updates for: Question answered by the "
 "user."
 msgstr ""
+"Option to define frequency of emailed updates for: Ideas commented by the "
+"user."
 
 #: conf/email.py:124
 msgid ""
 "Default notification frequency questions individually                        "
 "selected by the user"
 msgstr ""
+"Default notification frequency ideas individually                        "
+"selected by the user"
 
 #: conf/email.py:127
 msgid ""
 "Option to define frequency of emailed updates for: Question individually "
 "selected by the user."
 msgstr ""
+"Option to define frequency of emailed updates for: Ideas individually "
+"selected by the user."
 
 #: conf/email.py:139
 msgid ""
@@ -781,7 +790,7 @@ msgstr ""
 
 #: conf/email.py:153
 msgid "Send periodic reminders about unanswered questions"
-msgstr ""
+msgstr "Send periodic reminders about undiscussed ideas"
 
 #: conf/email.py:155
 msgid ""
@@ -800,21 +809,24 @@ msgstr ""
 
 #: conf/email.py:173
 msgid "Whom to remind about unanswered questions"
-msgstr ""
+msgstr "Whom to remind about undiscussed ideas"
 
 #: conf/email.py:183
 msgid "Days before starting to send reminders about unanswered questions"
-msgstr ""
+msgstr "Days before starting to send reminders about undiscussed ideas"
 
 #: conf/email.py:194
 msgid ""
 "How often to send unanswered question reminders (in days between the "
 "reminders sent)."
 msgstr ""
+"How often to send undiscussed idea reminders (in days between the "
+"reminders sent)."
+
 
 #: conf/email.py:206
 msgid "Max. number of reminders to send about unanswered questions"
-msgstr ""
+msgstr "Max. number of reminders to send about undiscussed ideas"
 
 #: conf/email.py:217
 msgid "Send periodic reminders to accept the best answer"
@@ -860,7 +872,7 @@ msgstr ""
 
 #: conf/email.py:287
 msgid "Allow posting questions by email"
-msgstr ""
+msgstr "Allow posting ideas by email"
 
 #: conf/email.py:289
 msgid ""
@@ -877,10 +889,12 @@ msgid ""
 "This setting applies to tags written in the subject line of questions asked "
 "by email"
 msgstr ""
+"This setting applies to tags written in the subject line of ideas shared "
+"by email"
 
 #: conf/email.py:313
 msgid "Enable posting answers and comments by email"
-msgstr ""
+msgstr "Enable posting comments on ideas by email"
 
 #: conf/email.py:316
 msgid "To enable this feature make sure lamson is running"
@@ -1086,7 +1100,7 @@ msgstr ""
 
 #: conf/flatpages.py:48
 msgid "Instructions on how to ask questions"
-msgstr ""
+msgstr "Instructions on how to share ideas"
 
 #: conf/flatpages.py:52
 msgid ""
@@ -1139,6 +1153,8 @@ msgid ""
 "Disabling this button will reduce number of new questions. If this button is "
 "disabled, the ask button in the search menu will still be available."
 msgstr ""
+"Disabling this button will reduce number of new ideas. If this button is "
+"disabled, the share button in the search menu will still be available."
 
 #: conf/forum_data_rules.py:66
 msgid "Enable embedding videos. "
@@ -1162,6 +1178,8 @@ msgid ""
 "Users do not accrue reputation for anonymous questions and their identity is "
 "not revealed until they change their mind"
 msgstr ""
+"Users do not accrue reputation for anonymous ideas and their identity is "
+"not revealed until they change their mind"
 
 #: conf/forum_data_rules.py:101
 msgid "Allow asking without registration"
@@ -1182,10 +1200,14 @@ msgid ""
 "to check for pending posts every time the user logs in. The builtin Askbot "
 "login system supports this feature."
 msgstr ""
+"Check if you want to allow users start posting ideas or comments for them before "
+"logging in. Enabling this may require adjustments in the user login system "
+"to check for pending posts every time the user logs in. The builtin Askbot "
+"login system supports this feature."
 
 #: conf/forum_data_rules.py:128
 msgid "Auto-follow questions by the Author"
-msgstr ""
+msgstr "Auto-follow ideas by the Author"
 
 #: conf/forum_data_rules.py:133
 msgid "Fully open by default"
@@ -1197,7 +1219,7 @@ msgstr ""
 
 #: conf/forum_data_rules.py:143
 msgid "Question details/body editor should be"
-msgstr ""
+msgstr "Idea details/body editor should be"
 
 #: conf/forum_data_rules.py:145
 msgid ""
@@ -2714,7 +2736,7 @@ msgstr ""
 
 #: conf/words.py:22 conf/words.py:23 templates/ask.html:4
 msgid "Ask Your Question"
-msgstr ""
+msgstr "Share Your Idea"
 
 #: conf/words.py:24 conf/words.py:43 conf/words.py:53 conf/words.py:63
 #: conf/words.py:127
@@ -2723,7 +2745,7 @@ msgstr ""
 
 #: conf/words.py:32 conf/words.py:33 conf/words.py:485 conf/words.py:486
 msgid "Please enter your question"
-msgstr ""
+msgstr "Please enter your idea"
 
 #: conf/words.py:41 conf/words.py:42
 msgid "Ask the Group"
@@ -2735,7 +2757,7 @@ msgstr ""
 
 #: conf/words.py:61 conf/words.py:62
 msgid "Answer Your Own Question"
-msgstr ""
+msgstr "Comment On Your Own Idea"
 
 #: conf/words.py:72
 msgid ""
@@ -2743,10 +2765,14 @@ msgid ""
 "span>, but please make sure to give an <strong>answer</strong>. Remember "
 "that you can always <strong>revise your original question</strong>."
 msgstr ""
+"<span class=\"big strong\">You are welcome to comment on your own idea</"
+"span>, but please make sure to give a new direction. Remember "
+"that you can always <strong>revise your original idea</strong>."
+
 
 #: conf/words.py:76
 msgid "Instruction to answer own questions"
-msgstr ""
+msgstr "Instruction for commenting ones own ideas"
 
 #: conf/words.py:77 conf/words.py:90 conf/words.py:104
 msgid "HTML is allowed"
@@ -2777,6 +2803,7 @@ msgstr ""
 msgid ""
 "Categorize your question using this tag selector or entering text in tag box."
 msgstr ""
+"Categorize your idea using this tag selector or entering text in tag box."
 
 #: conf/words.py:116
 msgid "Instruction for the catogory selector"
@@ -2792,15 +2819,15 @@ msgstr ""
 
 #: conf/words.py:135 conf/words.py:136
 msgid "ask questions"
-msgstr ""
+msgstr "share ideas"
 
 #: conf/words.py:144 conf/words.py:145
 msgid "Merge duplicate questions"
-msgstr ""
+msgstr "Merge duplicate ideas"
 
 #: conf/words.py:153 conf/words.py:154
 msgid "Enter duplicate question ID"
-msgstr ""
+msgstr "Enter duplicate idea ID"
 
 #: conf/words.py:162 conf/words.py:163
 msgid "asked"
@@ -2808,79 +2835,95 @@ msgstr ""
 
 #: conf/words.py:171 conf/words.py:172
 msgid "Asked first question"
-msgstr ""
+msgstr "Shared first idea"
 
 #: conf/words.py:180 conf/words.py:181
 msgid "Asked by me"
-msgstr ""
+msgstr "Shared by me"
 
 #: conf/words.py:189 conf/words.py:190
 msgid "Asked a question"
-msgstr ""
+msgstr "Shared an idea"
 
 #: conf/words.py:198 conf/words.py:199
 msgid "Answered a question"
-msgstr ""
+msgstr "Commented on an idea"
 
 #: conf/words.py:207 conf/words.py:208
 msgid "Answered by me"
-msgstr ""
+msgstr "Commented by me"
 
 #: conf/words.py:217 conf/words.py:218
 msgid "accepted an answer"
-msgstr ""
+msgstr "accepted a comment"
 
 #: conf/words.py:226 conf/words.py:227
 msgid "Gave accepted answer"
-msgstr ""
+msgstr "Gave accepted comment"
 
 #: conf/words.py:235 conf/words.py:236
 msgid "answered"
-msgstr ""
+msgstr "commented"
 
 #: conf/words.py:245
 msgid "Countable plural forms for \"question\""
-msgstr ""
+msgstr "Countable plural forms for \"idea\""
 
 #: conf/words.py:246 conf/words.py:256
 msgid "Enter one form per line, pay attention"
 msgstr ""
 
+#: conf/words.py:276
+msgid ""
+"question\n"
+"questions"
+msgstr ""
+"idea\n"
+"ideas"
+
 #: conf/words.py:255
 msgid "Countable plural forms for \"answer\""
+msgstr "Countable plural forms for \"comment\""
+
+#: conf/words.py:287
+msgid ""
+"answer\n"
+"answers"
 msgstr ""
+"comment\n"
+"comments"
 
 #: conf/words.py:264
 msgid "question"
-msgstr ""
+msgstr "idea"
 
 #: conf/words.py:265
 msgid "question (noun, singular)"
-msgstr ""
+msgstr "idea (noun, singular)"
 
 #: conf/words.py:273
 msgid "questions"
-msgstr ""
+msgstr "ideas"
 
 #: conf/words.py:274
 msgid "questions (noun, plural)"
-msgstr ""
+msgstr "ideas (noun, plural)"
 
 #: conf/words.py:282
 msgid "unanswered question"
-msgstr ""
+msgstr "undiscussed idea"
 
 #: conf/words.py:283
 msgid "unanswered question (singular)"
-msgstr ""
+msgstr "undiscussed idea (singular)"
 
 #: conf/words.py:291
 msgid "unanswered questions"
-msgstr ""
+msgstr "undiscussed ideas"
 
 #: conf/words.py:292
 msgid "unanswered questions (plural)"
-msgstr ""
+msgstr "undiscussed ideas (plural)"
 
 #: conf/words.py:300
 msgid "answer"
@@ -2892,179 +2935,179 @@ msgstr ""
 
 #: conf/words.py:309 conf/words.py:310
 msgid "Question voted up"
-msgstr ""
+msgstr "Idea voted up"
 
 #: conf/words.py:318 conf/words.py:319
 msgid "Answer voted up"
-msgstr ""
+msgstr "Comment voted up"
 
 #: conf/words.py:327 conf/words.py:328
 msgid "upvoted answer"
-msgstr ""
+msgstr "upvoted comment"
 
 #: conf/words.py:336 conf/words.py:337
 msgid "Nice Answer"
-msgstr ""
+msgstr "Nice Comment"
 
 #: conf/words.py:346 conf/words.py:347
 msgid "Nice Question"
-msgstr ""
+msgstr "Nice Idea"
 
 #: conf/words.py:356 conf/words.py:357
 msgid "Good Answer"
-msgstr ""
+msgstr "Good Comment"
 
 #: conf/words.py:366 conf/words.py:367
 msgid "Good Question"
-msgstr ""
+msgstr "Good Idea"
 
 #: conf/words.py:376 conf/words.py:377
 msgid "Great Answer"
-msgstr ""
+msgstr "Great Comment"
 
 #: conf/words.py:386 conf/words.py:387
 msgid "Great Question"
-msgstr ""
+msgstr "Great Idea"
 
 #: conf/words.py:396 conf/words.py:397
 msgid "Popular Question"
-msgstr ""
+msgstr "Popular Idea"
 
 #: conf/words.py:406 conf/words.py:407
 msgid "Notable Question"
-msgstr ""
+msgstr "Notable Idea"
 
 #: conf/words.py:416 conf/words.py:417
 msgid "Famous Question"
-msgstr ""
+msgstr "Famous Idea"
 
 #: conf/words.py:426 conf/words.py:427
 msgid "Stellar Question"
-msgstr ""
+msgstr "Stellar Idea"
 
 #: conf/words.py:436 conf/words.py:437
 msgid "Favorite Question"
-msgstr ""
+msgstr "Favorite Idea"
 
 #: conf/words.py:446 conf/words.py:447
 msgid "upvoted answers"
-msgstr ""
+msgstr "upvoted comments"
 
 #: conf/words.py:455 conf/words.py:456
 msgid "Show only questions from"
-msgstr ""
+msgstr "Show only ideas from"
 
 #: conf/words.py:464 conf/words.py:465
 msgid "Please ask your question here"
-msgstr ""
+msgstr "Please share your idea here"
 
 #: conf/words.py:474
 msgid "Sorry, this question has been deleted and is no longer accessible"
-msgstr ""
+msgstr "Sorry, this idea has been deleted and is no longer accessible"
 
 #: conf/words.py:477
 msgid "This question has been deleted"
-msgstr ""
+msgstr "This idea has been deleted"
 
 #: conf/words.py:494 conf/words.py:495
 msgid "delete your question"
-msgstr ""
+msgstr "delete your idea"
 
 #: conf/words.py:503 conf/words.py:504
 msgid "ask a question interesting to this community"
-msgstr ""
+msgstr "share an idea interesting to this community"
 
 #: conf/words.py:512 conf/words.py:513
 msgid "No questions here."
-msgstr ""
+msgstr "No ideas here."
 
 #: conf/words.py:521 conf/words.py:522
 msgid "Please follow some questions or follow some users."
-msgstr ""
+msgstr "Please follow some ideas or follow some users."
 
 #: conf/words.py:530 conf/words.py:531
 msgid "Please feel free to ask your question!"
-msgstr ""
+msgstr "Please feel free to share your idea!"
 
 #: conf/words.py:539 conf/words.py:540
 msgid "swap with question"
-msgstr ""
+msgstr "swap with idea"
 
 #: conf/words.py:548 conf/words.py:549
 msgid "repost as a question comment"
-msgstr ""
+msgstr "repost as a minor idea comment"
 
 #: conf/words.py:557
 msgid "(only one answer per user is allowed)"
-msgstr ""
+msgstr "(only one (major) comment per user is allowed)"
 
 #: conf/words.py:558
 msgid "Only one answer per user is allowed"
-msgstr ""
+msgstr "Only one (major) comment per user is allowed"
 
 #: conf/words.py:566 conf/words.py:567
 msgid "Accept the best answers for your questions"
-msgstr ""
+msgstr "Accept the best comments on your ideas"
 
 #: conf/words.py:575 conf/words.py:576
 msgid "author of the question"
-msgstr ""
+msgstr "author of the idea"
 
 #: conf/words.py:584 conf/words.py:585
 msgid "accept or unaccept the best answer"
-msgstr ""
+msgstr "accept or unaccept the best comment"
 
 #: conf/words.py:593 conf/words.py:594
 msgid "accept or unaccept your own answer"
-msgstr ""
+msgstr "accept or unaccept your own comment"
 
 #: conf/words.py:602 conf/words.py:603
 msgid "you already gave an answer"
-msgstr ""
+msgstr "you already gave a comment"
 
 #: conf/words.py:611 conf/words.py:612
 msgid "gave an answer"
-msgstr ""
+msgstr "commented"
 
 #: conf/words.py:620 conf/words.py:621
 msgid "answer own questions"
-msgstr ""
+msgstr "comment on your own ideas"
 
 #: conf/words.py:629 conf/words.py:630
 msgid "Answered own question"
-msgstr ""
+msgstr "Commented on own idea"
 
 #: conf/words.py:638 conf/words.py:639
 msgid "repost as a comment under older answer"
-msgstr ""
+msgstr "repost as a minor comment under older idea"
 
 #: conf/words.py:647 conf/words.py:648
 msgid "invite other to help answer this question"
-msgstr ""
+msgstr "invite other to discuss this idea"
 
 #: conf/words.py:656 conf/words.py:657
 msgid "Related questions"
-msgstr ""
+msgstr "Related ideas"
 
 #: conf/words.py:665 conf/words.py:666
 msgid "Question Tools"
-msgstr ""
+msgstr "Idea Tools"
 
 #: conf/words.py:674 conf/words.py:675
 msgid "Phrase: this question is currently shared only with:"
-msgstr ""
+msgstr "Phrase: this idea is currently shared only with:"
 
 #: conf/words.py:683 conf/words.py:684
 msgid "Be the first one to answer this question!"
-msgstr ""
+msgstr "Be the first one to comment on this idea!"
 
 #: conf/words.py:692 conf/words.py:693
 msgid "followed questions"
-msgstr ""
+msgstr "followed ideas"
 
 #: conf/words.py:701 conf/words.py:702
 msgid "follow questions"
-msgstr ""
+msgstr "follow ideas"
 
 #: conf/words.py:703
 msgid "Indefinite form"
@@ -3072,107 +3115,107 @@ msgstr ""
 
 #: conf/words.py:712
 msgid "Phrase: comments and answers to others questions"
-msgstr ""
+msgstr "Phrase: comments and answers to others ideas"
 
 #: conf/words.py:720 conf/words.py:721
 msgid "You can post questions by emailing them at"
-msgstr ""
+msgstr "You can post ideas by emailing them at"
 
 #: conf/words.py:729 conf/words.py:730
 msgid "List of questions"
-msgstr ""
+msgstr "List of ideas"
 
 #: conf/words.py:738 conf/words.py:739
 msgid "Community gives you awards for your questions, answers and votes"
-msgstr ""
+msgstr "Community gives you awards for your ideas, comments on ideas and votes"
 
 #: conf/words.py:747 conf/words.py:748
 msgid "Close question"
-msgstr ""
+msgstr "Close idea"
 
 #: conf/words.py:756 conf/words.py:757
 msgid "close questions"
-msgstr ""
+msgstr "close ideas"
 
 #: conf/words.py:765 conf/words.py:766
 msgid "Edit question"
-msgstr ""
+msgstr "Edit idea"
 
 #: conf/words.py:774 conf/words.py:775
 msgid "Question - in one sentence"
-msgstr ""
+msgstr "The Idea - in one sentence"
 
 #: conf/words.py:783 conf/words.py:784
 msgid "Retag question"
-msgstr ""
+msgstr "Retag idea"
 
 #: conf/words.py:792 conf/words.py:793
 msgid "retag questions"
-msgstr ""
+msgstr "retag ideas"
 
 #: conf/words.py:801 conf/words.py:802
 msgid "Reopen question"
-msgstr ""
+msgstr "Reopen ideas"
 
 #: conf/words.py:810 conf/words.py:811
 msgid "There are no unanswered questions here"
-msgstr ""
+msgstr "There are no undiscussed ideas here"
 
 #: conf/words.py:819 conf/words.py:820
 msgid "this answer has been selected as correct"
-msgstr ""
+msgstr "this comment has been selected as conclusive"
 
 #: conf/words.py:828 conf/words.py:829
 msgid "mark this answer as correct"
-msgstr ""
+msgstr "mark this comment as conclusive"
 
 #: conf/words.py:837 conf/words.py:838
 msgid "Login/Signup to Answer"
-msgstr ""
+msgstr "Login/Signup to Comment"
 
 #: conf/words.py:846 conf/words.py:847
 msgid "Your Answer"
-msgstr ""
+msgstr "Your Comment"
 
 #: conf/words.py:855 conf/words.py:856
 msgid "Add Answer"
-msgstr ""
+msgstr "Add Comment"
 
 #: conf/words.py:864 conf/words.py:865
 msgid "give an answer interesting to this community"
-msgstr ""
+msgstr "give a comment interesting to this community"
 
 #: conf/words.py:873 conf/words.py:874
 msgid "give a substantial answer"
-msgstr ""
+msgstr "give a substantial comment"
 
 #: conf/words.py:882 conf/words.py:883
 msgid "try to give an answer, rather than engage into a discussion"
-msgstr ""
+msgstr "keep your comment focused on the idea being discussed"
 
 #: conf/words.py:891 conf/words.py:892
 msgid "show only selected answers to enquirers"
-msgstr ""
+msgstr "show only selected comments to enquirers"
 
 #: conf/words.py:900 conf/words.py:901
 msgid "UNANSWERED"
-msgstr ""
+msgstr "UNDISCUSSED"
 
 #: conf/words.py:909 conf/words.py:910
 msgid "Edit Answer"
-msgstr ""
+msgstr "Edit Comment"
 
 #: conf/words.py:918 conf/words.py:919
 msgid "Answered"
-msgstr ""
+msgstr "Discussed"
 
 #: const/__init__.py:12
 msgid "duplicate question"
-msgstr ""
+msgstr "duplicate idea"
 
 #: const/__init__.py:13
 msgid "question is off-topic or not relevant"
-msgstr ""
+msgstr "idea is off-topic or not relevant"
 
 #: const/__init__.py:14
 msgid "too subjective and argumentative"
@@ -3180,19 +3223,19 @@ msgstr ""
 
 #: const/__init__.py:15
 msgid "not a real question"
-msgstr ""
+msgstr "not an idea suitable for discussion"
 
 #: const/__init__.py:16
 msgid "the question is answered, right answer was accepted"
-msgstr ""
+msgstr "the idea is discussed, conclusive comment was accepted"
 
 #: const/__init__.py:17
 msgid "question is not relevant or outdated"
-msgstr ""
+msgstr "idea is not relevant or outdated"
 
 #: const/__init__.py:18
 msgid "question contains offensive or malicious remarks"
-msgstr ""
+msgstr "idea contains offensive or malicious remarks"
 
 #: const/__init__.py:19
 msgid "spam or advertising"
@@ -7526,7 +7569,7 @@ msgstr ""
 
 #: templates/widgets/search_bar.html:20
 msgid "search or ask your question"
-msgstr ""
+msgstr "search or share your idea"
 
 #: templates/widgets/tag_selector.html:4
 msgid "Interesting tags"
