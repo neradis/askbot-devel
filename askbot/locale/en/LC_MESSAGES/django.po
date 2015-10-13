@@ -5643,7 +5643,7 @@ msgstr ""
 
 #: templates/main_page.html:15
 msgid "Questions"
-msgstr ""
+msgstr "Ideas"
 
 #: templates/question.html:291 templates/widgets/ask_form.html:69
 msgid "Login/Signup to Post"
